@@ -40,3 +40,15 @@ a{
   text-decoration:none ;
   color: inherit;
 }
+
+.active{
+  color: rgb(228, 148, 148);
+  font-weight: bolder;
+}
+.card{
+  transition-duration: 0.2s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
